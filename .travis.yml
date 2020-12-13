@@ -1,0 +1,10 @@
+language: rust
+jdk:
+  - openjdk11
+script:
+  - cd 001_base_ducks && ./gradlew run
+  - cd ../002_more_ducks && ./gradlew run
+  - cd ../003_duplicated_ducks && ./gradlew run
+  - cd ../004_strategy_ducks && ./gradlew run
+  - cd ../005_rust_ducks && cargo run
+
