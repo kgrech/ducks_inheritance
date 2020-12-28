@@ -14,7 +14,7 @@ public abstract class Duck implements Visual {
     }
 
     public void live() {
-        System.out.printf("The %s duck %s and make %s noise%n", look(),
+        System.out.printf("The %s duck %s and makes %s noise\n", look(),
                 moveStrategy.move(this),
                 noiseStrategy.sound(this));
     }

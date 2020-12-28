@@ -6,5 +6,7 @@ script:
   - cd ../002_more_ducks && ./gradlew run
   - cd ../003_duplicated_ducks && ./gradlew run
   - cd ../004_strategy_ducks && ./gradlew run
-  - cd ../005_rust_ducks && cargo run
+  - cd ../005_duck_factory && ./gradlew run
+  - cd ../006_bad_rust_ducks && cargo run
+  - cd ../007_rust_ducks && cargo run
 

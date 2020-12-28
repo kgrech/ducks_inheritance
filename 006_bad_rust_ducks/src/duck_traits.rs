@@ -14,7 +14,7 @@ pub trait Duck: Visual {
         Self: Sized,
     {
         println!(
-            "The {} duck {} and make {} noise",
+            "The {} duck {} and makes {} noise",
             self.look(),
             Self::MoveStrategy::moves(self),
             Self::NoiseStrategy::sound(self)
